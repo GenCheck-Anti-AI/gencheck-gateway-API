@@ -54,7 +54,7 @@ logging:
 #
 ## External microservice endpoints
 services:
-  text-analyzer: http://localhost:8001/analyze-text
-  image-analyzer: http://localhost:8002/analyze-image
-  video-analyzer: http://localhost:8003/analyze-video
+  text-analyzer: http://localhost:8001/analyze/text
+  image-analyzer: http://localhost:8002/analyze/image
+  video-analyzer: http://localhost:8002/analyze/video
 
